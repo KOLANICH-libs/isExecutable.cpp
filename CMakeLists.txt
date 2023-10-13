@@ -6,6 +6,8 @@ set("PROJECT_DESCRIPTION" "A lib to distinguish a shared library from an executa
 set("PROJECT_HOMEPAGE_URL" "https://codeberg.org/KOLANICH-libs/isExecutable.cpp")
 set(CPACK_PACKAGE_VENDOR "KOLANICH")
 
+message(STATUS "We have moved from M$ GitHub to ${PROJECT_HOMEPAGE_URL}, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo . ")
+
 set(CPACK_PACKAGE_VERSION_MAJOR "0")
 set(CPACK_PACKAGE_VERSION_MINOR "0")
 set(CPACK_PACKAGE_VERSION_PATCH "1")
